@@ -2,7 +2,7 @@
 
 ## Descripción
 
-**<a=href='https://dumxrg.github.io/evolution/index.html'>Evolution</a>** es una página web dedicada a GataBot. Ofrecemos información, contactos y grupos sobre los projectos de GataNina-Li.
+**<strong><a href='https://dumxrg.github.io/evolution/index.html'>Evolution</a></strong>** es una página web dedicada a GataBot. Ofrecemos información, contactos y grupos sobre los projectos de GataNina-Li.
 
 ## Características
 
