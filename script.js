@@ -335,7 +335,7 @@ function redirect(url) {
   bg = isday ? BACKGROUND_COLORS[random] : DARK_BACKGROUND_COLORS[random];
   txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random];
   Swal.fire({
-    title: "¡Redirigiendo!",
+    title: `<span style="color:${txt};">HA!</span>`,
     background: bg,
     html: `<span style="color:${txt};">Serás redirigido a ${url} !</span>`,
     icon: "info",
