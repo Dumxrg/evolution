@@ -112,9 +112,8 @@ function changeTheme() {
   isday = !isday;
 }
 changeTheme();
-changeTheme()
+changeTheme();
 let change = false;
-
 
 function nyan() {
   if (!change) {
@@ -125,7 +124,6 @@ function nyan() {
     setTimeout(() => {
       nyan.style.display = "none"; // Hide Nyan Cat after 2 seconds
       change = false;
-   
     }, 3000);
   }
 }
@@ -155,7 +153,7 @@ function typeWriter(word = null) {
     setTimeout(() => typeWriter(word), speed);
   } else if (!word) {
     element.classList.add("blinking");
-    setTimeout(() => erase(txt.length), 2000); 
+    setTimeout(() => erase(txt.length), 2000);
   }
 }
 
@@ -170,12 +168,11 @@ function erase(length) {
     typeWriter();
   }
 }
-let bg
+let bg;
 let timesclicked = 0;
 function funAlert() {
-
-bg = isday ? BACKGROUND_COLORS[random] : DARK_BACKGROUND_COLORS[random]
-txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
+  bg = isday ? BACKGROUND_COLORS[random] : DARK_BACKGROUND_COLORS[random];
+  txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random];
 
   switch (timesclicked) {
     case 0:
@@ -230,11 +227,10 @@ txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
     case 4:
       Swal.fire({
         background: bg,
-        title:
-          `<span style="color:${txt};">Si continuas te arrepentiras...</span>`,
+        title: `<span style="color:${txt};">Si continuas te arrepentiras...</span>`,
         html: `<span style="color:${txt};"><i>*Bueno, a lo mejor seria buena hora para parar...*</i></span>`,
         imageUrl:
-          "https://media.tenor.com/vfbLpBX61ggAAAAM/angry-angry-cat.gif", 
+          "https://media.tenor.com/vfbLpBX61ggAAAAM/angry-angry-cat.gif",
         imageWidth: 100,
         imageHeight: 100,
         imageAlt: "Easter Egg",
@@ -284,7 +280,7 @@ txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
         title: `<span style="color:${txt};">2</span>`,
         html: `<span style="color:${txt};">...</span>`,
         imageUrl:
-          "https://i.scdn.co/image/ab67616d00001e0227047720beaa8d2b4c236380", 
+          "https://i.scdn.co/image/ab67616d00001e0227047720beaa8d2b4c236380",
         imageWidth: 100,
         imageHeight: 100,
         imageAlt: "Easter Egg",
@@ -315,7 +311,7 @@ txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
         title: `<span style="color:${txt};">HA!</span>`,
         html: `<span style="color:${txt};">¡Tú te lo has buscado!</span>`,
         imageUrl:
-          "https://i.pinimg.com/originals/ea/5f/c9/ea5fc9680cec81756dcd5f12d63dc3f5.jpg", 
+          "https://i.pinimg.com/originals/ea/5f/c9/ea5fc9680cec81756dcd5f12d63dc3f5.jpg",
         imageWidth: 100,
         imageHeight: 100,
         imageAlt: "Easter Egg",
@@ -336,10 +332,8 @@ txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
   }
 }
 function redirect(url) {
-  
-bg = isday ? BACKGROUND_COLORS[random] : DARK_BACKGROUND_COLORS[random]
-txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
-
+  bg = isday ? BACKGROUND_COLORS[random] : DARK_BACKGROUND_COLORS[random];
+  txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random];
   Swal.fire({
     title: "¡Redirigiendo!",
     background: bg,
@@ -347,7 +341,6 @@ txt = isday ? TEXT_COLORS[random] : DARK_TEXT_COLORS[random]
     icon: "info",
     confirmButtonText: "Ok",
     showCancelButton: "Cancelar",
-    background: "bg",
   }).then((result) => {
     if (result.isConfirmed) {
       window.open(url, "_blank");
