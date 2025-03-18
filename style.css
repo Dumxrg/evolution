@@ -6,7 +6,7 @@
   --color-one: hsl(239, 66%, 36%);
   --color-two: hsl(311, 92%, 53%);
 }
-/* ---- reset ---- */
+
 body {
   display: grid;
   place-items: center;
