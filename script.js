@@ -18,6 +18,7 @@ const RANDOM_WORDS = [
   "Codigo abierto",
   "Multi-lenguaje",
   "IA integrado",
+  "Amigable al usuario",
 ];
 
 let i = 0;
