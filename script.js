@@ -265,7 +265,7 @@ function funAlert() {
         title: `<span style="color:${txt};">3</span>`,
         html: `<span style="color:${txt};">...</span>`,
         imageUrl:
-          "https://preview.redd.it/hello-actually-looking-for-the-source-of-this-meme-abt-a-v0-oeby2q5ugh7c1.jpeg?auto=webp&s=cdcd7d0d3c745e0c41f1fe85eda4551890072756", // Asegúrate de usar una URL válida para la imagen
+         "https://preview.redd.it/hello-actually-looking-for-the-source-of-this-meme-abt-a-v0-oeby2q5ugh7c1.jpeg?auto=webp&s=cdcd7d0d3c745e0c41f1fe85eda4551890072756", // Asegúrate de usar una URL válida para la imagen
         imageWidth: 100,
         imageHeight: 100,
         imageAlt: "Easter Egg",
