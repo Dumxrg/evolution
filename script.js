@@ -363,4 +363,4 @@ if (toggleButton) {
     groups.classList.toggle("show");
   });
 }
-//sorry for using this messy ahh code
+//Sorry for using this messy ahh code
